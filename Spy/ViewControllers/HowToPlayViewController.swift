@@ -110,7 +110,7 @@ class HowToPlayViewController: UIViewController, CustomCardViewDelegate, UIViewC
         cardView.delegate = self
         cardView.isFlipEnabled = false
         cardView.setStatus(.activeBlue)
-        cardView.configure(role: howToPlayTitles[index].localized, frontText: howToPlayTexts[index].localized)
+        cardView.configure(role: howToPlayTitles[index].localized, frontText: howToPlayTexts[index].localized, spyCount: 1)
         cardView.translatesAutoresizingMaskIntoConstraints = false
         return cardView
     }

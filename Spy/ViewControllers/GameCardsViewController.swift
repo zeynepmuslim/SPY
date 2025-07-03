@@ -90,7 +90,8 @@ class GameCardsViewController: UIViewController, CustomCardViewDelegate {
         cardView.configure(
             role: configuration.role,
             selectedWord: configuration.selectedWord,
-            isSpy: configuration.isSpy
+            isSpy: configuration.isSpy,
+            spyCount: model.spyCount
         )
         
         containerView.insertSubview(cardView, at: 0)

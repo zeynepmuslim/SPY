@@ -124,14 +124,14 @@ class DefaultSettingsGroupFactory {
     static func createPlayerGroups(playerCount: Int = 5, spyCount: Int = 1) -> [PlayerSettingsGroupManager.PlayerGroup] {
         return [
             PlayerSettingsGroupManager.PlayerGroup(
-                title: "player_count".localized,
+                title: "player_count_static".localized,
                 index: 0,
                 minSpyCount: 1,
                 maxSpyCount: 10,
                 initialValue: playerCount
             ),
             PlayerSettingsGroupManager.PlayerGroup(
-                title: "spy_count".localized,
+                title: "spy_count_static".localized,
                 index: 1,
                 buttonBorderColor: .red,
                 buttonShadow: .red,

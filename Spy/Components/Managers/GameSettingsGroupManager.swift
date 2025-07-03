@@ -308,7 +308,7 @@ class GameSettingsGroupManager {
             initialValue: initialDuration,
             minValue: Constants.minRoundDuration,
             maxValue: Constants.maxRoundDuration,
-            valueFormatter: { value in String(format: "minutes_format".localized, value) }
+            valueFormatter: { value in "minute_count".localizedPlural(count: value) }
         )
     }
     
@@ -319,7 +319,7 @@ class GameSettingsGroupManager {
             initialValue: initialCount,
             minValue: Constants.minRoundCount,
             maxValue: Constants.maxRoundCount,
-            valueFormatter: { value in String(format: "rounds_format".localized, value) }
+            valueFormatter: { value in "rount_count".localizedPlural(count: value) }
         )
     }
     

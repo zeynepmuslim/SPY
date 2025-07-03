@@ -342,9 +342,9 @@ class CustomCardView: UIView {
         })
     }
     
-    func configure(role: String, selectedWord: String = "", isSpy: Bool = false, frontText: String = "tap_to_reveal_your_role".localized) {
+    func configure(role: String, selectedWord: String = "", isSpy: Bool = false, frontText: String = "tap_to_reveal_your_role".localized, spyCount: Int = 1) {
         resetCardState()
-        configureTexts(role: role, selectedWord: selectedWord, isSpy: isSpy, frontText: frontText)
+        configureTexts(role: role, selectedWord: selectedWord, isSpy: isSpy, frontText: frontText, spyCount: spyCount)
         self.isSpy = isSpy
     }
     
@@ -356,14 +356,14 @@ class CustomCardView: UIView {
         label3.transform = .identity
     }
     
-    private func configureTexts(role: String, selectedWord: String, isSpy: Bool, frontText: String) {
+    private func configureTexts(role: String, selectedWord: String, isSpy: Bool, frontText: String, spyCount: Int) {
         frontText1 = role
         frontText2 = frontText
         frontText3 = ""
         
         backText1 = isSpy ? "spy".localized : "civil".localized
         backText2 = isSpy ? "" : selectedWord.localized
-        backText3 = isSpy ? "try_to_blend_in".localized : "find_the_spies".localized
+        backText3 = isSpy ? "try_to_blend_in".localized : "find_the_spies".staticPlural(count: spyCount)
         
         label1.text = frontText1
         label2.text = frontText2

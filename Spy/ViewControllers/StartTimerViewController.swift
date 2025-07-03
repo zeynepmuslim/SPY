@@ -50,7 +50,8 @@ class StartTimerViewController: UIViewController {
     }
     
     private func setupLabels() {
-        titleLabel.text = "find_the_spy_before_time_runs_out".localized
+        let spyCount = GameStateManager.shared.getSpyIndicesForCurrentRound().count
+        titleLabel.text = "find_the_spy_before_time_runs_out".staticPlural(count: spyCount)
         titleLabel.textColor = .white
         titleLabel.font = UIFont.boldSystemFont(ofSize: StartTimerConstants.FontSizes.titleSize)
         titleLabel.textAlignment = .center

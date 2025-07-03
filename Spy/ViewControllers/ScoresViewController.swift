@@ -103,7 +103,7 @@ class ScoresViewController: UIViewController {
         civilPointLabel.font = .systemFont(ofSize: 30, weight: .regular)
         spyPointLabel.font = .systemFont(ofSize: 30, weight: .regular)
         
-        bottomInfoLabel.text = "score_bottom_info_text".localized
+        bottomInfoLabel.text = "score_bottom_info_text".staticPlural(count: model.spyIndices.count)
         bottomInfoLabel.numberOfLines = 0
         bottomInfoLabel.lineBreakMode = .byWordWrapping
         bottomInfoLabel.textAlignment = .center

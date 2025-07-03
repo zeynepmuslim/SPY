@@ -5,6 +5,11 @@
   Created for localized strings.
 */
 
+"rounds_left_unformeted" = "%d rounds left until the game ends";
+"minutes_format" = "%d minutes";
+"rounds_format" = "%d rounds";
+
+
 //GENERAL
 "cancel" = "Cansel";
 "delete" = "Delete";
@@ -15,9 +20,10 @@
 "edit:_x" = "Edit: %@";
 "player_was_a_spy" = "Player %d was a spy";
 "player_was_a_civilian" = "Player %d was a civilian";
-"role_point_text" = "%@ +%d";
-"minutes_format" = "%d minutes";
-"rounds_format" = "%d rounds";
+"civil_points" = "Civilians +%d";
+"spy_points" = "Spy +%d";
+"spy_points_singular" = "Spy +%d";
+"spy_points_plural" = "Spies +%d";
 "civil" = "Civilian";
 "spy" = "Spy";
 
@@ -74,10 +80,17 @@
 // Countdown VC
 "hints" = "Hints";
 "find_the_spies" = "Find the spies!";
+"find_the_spies_singular" = "Find the spy!";
+"find_the_spies_plural" = "Find the spies!";
+"find_the_spies_group" = "Find the spies!";
+"find_the_spies_group_singular" = "Find the spy!";
+"find_the_spies_group_plural" = "Find the spies!";
 "select_a_player_to_blame" = "Select a player to blame";
 "-1_point_for_each_civilian" = "-1 point for each civilian";
 "+1_point_for_each_spy" = "+1 point for each spy";
 "false_blame_warning_label" = "A false accusation reduces the total points received by civilians and increases the spy's!";
+"false_blame_warning_label_singular" = "A false accusation reduces the total points received by civilians and increases the spy's!";
+"false_blame_warning_label_plural" = "A false accusation reduces the total points received by civilians and increases the spies'!";
 "blame_the_player" = "Blame the player!";
 "PLAYER" = "PLAYER";
 "ALL_SPIES_FOUND" = "SPIES FOUND";
@@ -92,8 +105,8 @@
 // Default Setting sVC
 
 "default_settings" = "Default Settings";
-"player_count" = "Player Count";
-"spy_count" = "Spy Count";
+"player_count_static" = "Player Count";
+"spy_count_static" = "Spy Count";
 "save_as_default" = "Save as default";
 "customize" = "Customize";
 
@@ -110,16 +123,20 @@
 
 "winner_civils" = "Winner: Civilians";
 "winner_spies" = "Winner: Spies";
+"winner_spies_singular" = "Winner: Spy";
+"winner_spies_plural" = "Winner: Spies";
 "winner_spies_times_up" = "Winner: Spies (Time's Up)";
+"winner_spies_times_up_singular" = "Winner: Spy (Time's Up)";
+"winner_spies_times_up_plural" = "Winner: Spies (Time's Up)";
 "winner_determining" = "Winners: Determining...";
-"rounds_left" = "%d rounds left until the game ends";
 "last_round" = "This was the last round!";
 "winner_prefix" = "Winner: ";
 "selected_word_prefix" = "Selected Word: %@";
-"civil_point_text" = "Civilian +3";
+"civil_point_text" = "Civilians +3";
 "spy_point_text" = "Spy +1";
 "score_bottom_info_text" = "Each civilian earns points equal to the number of active civilians. Points lost due to false accusations by civilians are transferred to the spy.";
-"rounds_left" = "%d rounds left until the game ends";
+"score_bottom_info_text_singular" = "Each civilian earns points equal to the number of active civilians. Points lost due to false accusations by civilians are transferred to the spy.";
+"score_bottom_info_text_plural" = "Each civilian earns points equal to the number of active civilians. Points lost due to false accusations by civilians are transferred to the spies.";
 "SPY" = "SPY";
 "CIVIL" = "CIVIL";
 "score_text" = "Score: %d";
@@ -128,6 +145,8 @@
 // Start Timer VC
 
 "find_the_spy_before_time_runs_out" = "Find the spy before time runs out! Otherwise, the spy wins";
+"find_the_spy_before_time_runs_out_singular" = "Find the spy before time runs out! Otherwise, the spy wins";
+"find_the_spy_before_time_runs_out_plural" = "Find the spies before time runs out! Otherwise, the spies win";
 "tap_to_start_when_ready" = "Tap the screen to start the timer when everyone is ready";
 
 // Total Scores VC

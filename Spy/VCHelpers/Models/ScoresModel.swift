@@ -55,9 +55,9 @@ class ScoresModel {
         case .civilians:
             return "winner_civils".localized
         case .spies:
-            return "winner_spies".localized
+            return "winner_spies".staticPlural(count: spyIndices.count)
         case .timeout:
-            return "winner_spies_times_up".localized
+            return "winner_spies_times_up".staticPlural(count: spyIndices.count)
         case .none:
             return "winner_determining".localized
         }
@@ -92,13 +92,13 @@ class ScoresModel {
         let allSpiesFound = foundSpyIndices.count == spyIndices.count
         
         let points = allSpiesFound ? aliveCivilians.count : 0
-        return String(format: "role_point_text".localized, "civil".localized, points)
+        return String(format: "civil_points".localized, points)
     }
     
     func getSpyPointsText() -> String {
         let allSpiesFound = foundSpyIndices.count == spyIndices.count
         let points = allSpiesFound ? 0 : numberOfChildren
-        return String(format: "role_point_text".localized, "spy".localized, points)
+        return "spy_points".staticPlural(count: points)
     }
     
     // MARK: - Rounds Logic
@@ -107,7 +107,7 @@ class ScoresModel {
         let remainingRounds = totalRounds - (currentRound + 1)
         
         if remainingRounds > 0 {
-            return String(format: "rounds_left".localized, remainingRounds)
+            return "round_left_count".localizedPlural(count: remainingRounds)
         } else {
             return "last_round".localized
         }

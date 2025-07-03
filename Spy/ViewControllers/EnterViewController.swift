@@ -256,4 +256,38 @@ extension String {
     var localized: String {
         return NSLocalizedString(self, comment: "")
     }
+    
+    func localizedPlural(count: Int) -> String {
+        let languageCode = Locale.current.languageCode ?? "en"
+
+        let pluralLanguages: Set<String> = ["en"]
+
+        if pluralLanguages.contains(languageCode) {
+            let format = NSLocalizedString(self, comment: "")
+            return String.localizedStringWithFormat(format, count)
+        } else { // tr
+            return String(format: NSLocalizedString(self, comment: ""), count)
+        }
+    }
+    
+    func staticPlural(count: Int) -> String {
+        let singularKey = self + "_singular"
+        let pluralKey = self + "_plural"
+        
+        let singularTranslation = NSLocalizedString(singularKey, comment: "")
+        if singularTranslation != singularKey {
+            if count == 1 {
+                return singularTranslation
+            } else {
+                let pluralTranslation = NSLocalizedString(pluralKey, comment: "")
+                if pluralTranslation != pluralKey {
+                    return pluralTranslation
+                } else { // fallback
+                    return NSLocalizedString(self, comment: "")
+                }
+            }
+        } else {
+            return NSLocalizedString(self, comment: "")
+        }
+    }
 }

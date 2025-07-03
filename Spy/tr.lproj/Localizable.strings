@@ -6,13 +6,20 @@
 */
 
 
+"round_left_count" = "Oyunun bitimine %d tur kaldı";
+"minute_count" = "%d dakika";
+"rount_count" = "%d tur";
+
 "player_x" = "Oyuncu %d";
 "edit:_x" = "Düzenle: %@";
 "player_was_a_spy" = "Oyuncu %d bir ajandı";
 "player_was_a_civilian" = "Oyuncu %d bir sivildi";
-"role_point_text" = "%@ +%d";
-"minutes_format" = "%d dakika";
-"rounds_format" = "%d tur";
+"civil_points" = "Siviller +%d";
+"spy_points" = "Ajan +%d";
+"spy_points_singular" = "Ajan +%d";
+"spy_points_plural" = "Ajanlar +%d";
+
+
 "civil" = "Sivil";
 "spy" = "Ajan";
 
@@ -60,7 +67,6 @@
 // Custom Card View
 "tap_to_reveal_your_role" = "Rolünü görmek için dokun!";
 "spy" = "Ajan";
-"civil" = "Sivil";
 "try_to_blend_in" = "Fark edilmemeye çalış!";
 
 // Category Manager
@@ -68,11 +74,18 @@
 
 // Countdown VC
 "hints" = "İpuçları";
-"find_the_spies" = "Ajanları bulun!";
+"find_the_spies" = "Ajanları bul!";
+"find_the_spies_singular" = "Ajanı bul!";
+"find_the_spies_plural" = "Ajanları bul!";
+"find_the_spies_group" = "Ajanları bul!";
+"find_the_spies_group_singular" = "Ajanı bulun!";
+"find_the_spies_group_plural" = "Ajanları bulun!";
 "select_a_player_to_blame" = "Suçlamak için bir oyuncu seç";
 "-1_point_for_each_civilian" = "Her sivil için -1 puan";
 "+1_point_for_each_spy" = "Her ajan için +1 puan";
 "false_blame_warning_label" = "Yanlış suçlama, sivillerin aldığı puanı azaltır ve ajanlara puan kazandırır!";
+"false_blame_warning_label_singular" = "Yanlış suçlama, sivillerin aldığı puanı azaltır ve ajana puan kazandırır!";
+"false_blame_warning_label_plural" = "Yanlış suçlama, sivillerin aldığı puanı azaltır ve ajanlara puan kazandırır!";
 "blame_the_player" = "Oyuncuyu suçla!";
 "PLAYER" = "OYUNCU";
 "ALL_SPIES_FOUND" = "AJANLAR BULUNDU";
@@ -85,8 +98,8 @@
 
 // Default Settings VC
 "default_settings" = "Varsayılan Ayarlar";
-"player_count" = "Oyuncu Sayısı";
-"spy_count" = "Ajan Sayısı";
+"player_count_static" = "Oyuncu Sayısı";
+"spy_count_static" = "Ajan Sayısı";
 "save_as_default" = "Varsayılan olarak kaydet";
 "customize" = "Özelleştir";
 
@@ -100,15 +113,20 @@
 // Scores VC
 "winner_civils" = "Kazanan: Siviller";
 "winner_spies" = "Kazanan: Ajanlar";
+"winner_spies_singular" = "Kazanan: Ajan";
+"winner_spies_plural" = "Kazanan: Ajanlar";
 "winner_spies_times_up" = "Kazanan: Ajanlar (Süre Doldu)";
 "winner_determining" = "Kazananlar: Belirleniyor...";
 "rounds_left" = "Oyunun bitimine %d tur kaldı";
 "last_round" = "Bu son turdu!";
 "winner_prefix" = "Kazanan: ";
+
 "selected_word_prefix" = "Seçilen Kelime: %@";
 "civil_point_text" = "Sivil +3";
 "spy_point_text" = "Ajan +1";
 "score_bottom_info_text" = "Her sivil, aktif sivil sayısı kadar puan kazanır. Yanlış suçlamalardan kaybedilen puanlar ajanlara geçer.";
+"score_bottom_info_text_singular" = "Her sivil, aktif sivil sayısı kadar puan kazanır. Yanlış suçlamalardan kaybedilen puanlar ajana geçer.";
+"score_bottom_info_text_plural" = "Her sivil, aktif sivil sayısı kadar puan kazanır. Yanlış suçlamalardan kaybedilen puanlar ajanlara geçer.";
 "SPY" = "AJAN";
 "CIVIL" = "SİVİL";
 "score_text" = "Puan: %d";
@@ -116,6 +134,8 @@
 
 // Start Timer VC
 "find_the_spy_before_time_runs_out" = "Süre dolmadan ajanı bulun! Aksi halde ajan kazanır";
+"find_the_spy_before_time_runs_out_singular" = "Süre dolmadan ajanı bulun! Aksi halde ajan kazanır";
+"find_the_spy_before_time_runs_out_plural" = "Süre dolmadan ajanları bulun! Aksi halde ajanlar kazanır";
 "tap_to_start_when_ready" = "Herkes hazır olduğunda zamanlayıcıyı başlatmak için ekrana dokunun";
 
 // Total Scores VC

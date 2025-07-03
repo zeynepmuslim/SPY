@@ -36,31 +36,6 @@ enum StartTimerConstants {
 // MARK: - Start Timer UI Manager
 class StartTimerUIManager {
     
-    // MARK: - Label Configuration
-    static func configureTitleLabel() -> UILabel {
-        let label = UILabel()
-        label.text = "find_the_spy_before_time_runs_out".localized
-        label.textColor = .white
-        label.font = UIFont.boldSystemFont(ofSize: StartTimerConstants.FontSizes.titleSize)
-        label.textAlignment = .center
-        label.numberOfLines = 0
-        label.lineBreakMode = .byWordWrapping
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }
-    
-    static func configureSubtitleLabel() -> UILabel {
-        let label = UILabel()
-        label.text = "tap_to_start_when_ready".localized
-        label.textColor = .white
-        label.font = UIFont.systemFont(ofSize: StartTimerConstants.FontSizes.subtitleSize)
-        label.textAlignment = .center
-        label.numberOfLines = 0
-        label.lineBreakMode = .byWordWrapping
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }
-    
     static func configureBottomView() -> CustomDarkScrollView {
         let bottomView = CustomDarkScrollView()
         bottomView.translatesAutoresizingMaskIntoConstraints = false

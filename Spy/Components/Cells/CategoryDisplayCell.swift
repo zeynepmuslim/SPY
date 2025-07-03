@@ -137,7 +137,7 @@ class CategoryDisplayCell: UICollectionViewCell {
             
             infoButton.topAnchor.constraint(equalTo: stackView.topAnchor, constant: 4),
             infoButton.trailingAnchor.constraint(equalTo: stackView.trailingAnchor, constant: -4),
-            infoButton.widthAnchor.constraint(equalToConstant: 20),
+            infoButton.widthAnchor.constraint(equalToConstant: 25),
             infoButton.heightAnchor.constraint(equalTo: infoButton.widthAnchor)
         ])
     }
