@@ -1,0 +1,561 @@
+/* 
+  Localizable.strings (English)
+  Spy
+
+  Created for localized strings.
+*/
+
+//GENERAL
+"cancel" = "Cansel";
+"delete" = "Delete";
+"error" = "Error";
+"okey" = "Okey";
+
+"player_x" = "Player %d";
+"edit:_x" = "Edit: %@";
+"player_was_a_spy" = "Player %d was a spy";
+"player_was_a_civilian" = "Player %d was a civilian";
+"role_point_text" = "%@ +%d";
+"minutes_format" = "%d minutes";
+"rounds_format" = "%d rounds";
+"civil" = "Civilian";
+"spy" = "Spy";
+
+// Enter VC
+"new_game" = "New Game";
+"settings" = "Settings";
+"how_to_play" = "How to Play";
+
+// Inside CategoryVC
+"select_category" = "Select Category";
+
+// Add Category VC
+"category_title" = "Category Title";
+"value" = "Value ";
+"edit" = "Edit";
+"save_changes" = "Save Changes";
+"confirm_delete" = "Delete Category";
+"are_you_sure_delete_category" = "Are you sure you want to delete this category?";
+"save_category" = "Save Category";
+"add_new_category" = "Add New Category";
+"name_is_already_in_usage_pick_another" = "This category name is already in use. Please choose a different name.";
+"category_title_min_length" = "Category title must be at least %d characters long";
+"category_min_values_required" = "At least %d category values are required";
+"category_max_values_allowed" = "You can enter up to %d category values";
+"category_value_min_length" = "Each category value must be at least %d characters. Value to fix: '%@'";
+
+// Custom Display Cell
+"new" = "New";
+
+// Custom Player Cell
+"player" = "Player";
+
+// Score Cell Container
+"score" = "Score";
+
+// Game Settings Group Manager
+"category" = "Category";
+"select" = "Select";
+"round_time" = "Round Time";
+"minutes" = " minutes";
+"round_count" = "Round Count";
+"rounds" = " rounds";
+"show_hints" = "Show Hints";
+
+// Custom Card View
+"tap_to_reveal_your_role" = "Tap to reveal your role!";
+"spy" = "Spy";
+"civil" = "Civilian";
+"try_to_blend_in" = "Try to blend in!";
+
+// Category Manager
+"other" = "Other";
+
+// Countdown VC
+"hints" = "Hints";
+"find_the_spies" = "Find the spies!";
+"select_a_player_to_blame" = "Select a player to blame";
+"-1_point_for_each_civilian" = "-1 point for each civilian";
+"+1_point_for_each_spy" = "+1 point for each spy";
+"false_blame_warning_label" = "A false accusation reduces the total points received by civilians and increases the spy's!";
+"blame_the_player" = "Blame the player!";
+"PLAYER" = "PLAYER";
+"ALL_SPIES_FOUND" = "SPIES FOUND";
+"SPIES_WON" = "SPIES FOUND";
+"TIME_UP_AGENTS_WIN" = "TIME'S UP, AGENTS WIN!";
+"there_is_no_hints_for_this_category" = "There is no hints for this category";
+
+// Custom Players VC
+
+"save_players" = "Save Players";
+
+// Default Setting sVC
+
+"default_settings" = "Default Settings";
+"player_count" = "Player Count";
+"spy_count" = "Spy Count";
+"save_as_default" = "Save as default";
+"customize" = "Customize";
+
+// Game Cards VC
+
+"swipe_the_card_before_next_player" = "Swipe the card before passing the phone to the next player";
+"unknown" = "Unknown";
+
+// Game Settings VC
+
+"play" = "Play";
+
+// Scores VC
+
+"winner_civils" = "Winner: Civilians";
+"winner_spies" = "Winner: Spies";
+"winner_spies_times_up" = "Winner: Spies (Time's Up)";
+"winner_determining" = "Winners: Determining...";
+"rounds_left" = "%d rounds left until the game ends";
+"last_round" = "This was the last round!";
+"winner_prefix" = "Winner: ";
+"selected_word_prefix" = "Selected Word: %@";
+"civil_point_text" = "Civilian +3";
+"spy_point_text" = "Spy +1";
+"score_bottom_info_text" = "Each civilian earns points equal to the number of active civilians. Points lost due to false accusations by civilians are transferred to the spy.";
+"rounds_left" = "%d rounds left until the game ends";
+"SPY" = "SPY";
+"CIVIL" = "CIVIL";
+"score_text" = "Score: %d";
+"next_round" = "Next Round";
+
+// Start Timer VC
+
+"find_the_spy_before_time_runs_out" = "Find the spy before time runs out! Otherwise, the spy wins";
+"tap_to_start_when_ready" = "Tap the screen to start the timer when everyone is ready";
+
+// Total Scores VC
+
+"game_end_scores_title" = "Final Game Scores";
+"default_player_name" = "Player %d";
+"player_score_text" = "%@: %d points"; //name and sore
+"play_again" = "Play Again";
+
+
+
+
+
+
+// DEFAULT CATEGORIES
+
+//basic
+"basic" = "Basic";
+"book" = "Book";
+"pen" = "Pen";
+"table" = "Table";
+"chair" = "Chair";
+"glass" = "Glass";
+"plate" = "Plate";
+"fork" = "Fork";
+"knife" = "Knife";
+"spoon" = "Spoon";
+"phone" = "Phone";
+"computer" = "Computer";
+"glasses" = "Glasses";
+"watch" = "Watch";
+"key" = "Key";
+"wallet" = "Wallet";
+"umbrella" = "Umbrella";
+"television" = "Television";
+"lamp" = "Lamp";
+"mirror" = "Mirror";
+"door" = "Door";
+
+//travel
+"travel" = "Travel";
+"plane" = "Plane";
+"train" = "Train";
+"bus" = "Bus";
+"ship" = "Ship";
+"car" = "Car";
+"suitcase" = "Suitcase";
+"luggage" = "Luggage";
+"passport" = "Passport";
+"ticket" = "Ticket";
+"hotel" = "Hotel";
+"map" = "Map";
+"guide" = "Guide";
+"sea" = "Sea";
+"beach" = "Beach";
+"mountain" = "Mountain";
+"forest" = "Forest";
+"city" = "City";
+"museum" = "Museum";
+"holiday" = "Holiday";
+"journey" = "Journey";
+
+//food
+"food" = "Food";
+"bread" = "Bread";
+"cheese" = "Cheese";
+"olive" = "Olive";
+"tomato" = "Tomato";
+"cucumber" = "Cucumber";
+"soup" = "Soup";
+"pasta" = "Pasta";
+"rice" = "Rice";
+"meat" = "Meat";
+"chicken" = "Chicken";
+"fish" = "Fish";
+"fruit" = "Fruit";
+"vegetable" = "Vegetable";
+"dessert" = "Dessert";
+"coffee" = "Coffee";
+"tea" = "Tea";
+"water" = "Water";
+"restaurant" = "Restaurant";
+"chef" = "Chef";
+"recipe" = "Recipe";
+
+//history
+"history" = "History";
+"ottoman" = "Ottoman";
+"ataturk" = "Atatürk";
+"republic" = "Republic";
+"empire" = "Empire";
+"war" = "War";
+"peace" = "Peace";
+"treaty" = "Treaty";
+"king" = "King";
+"queen" = "Queen";
+"sultan" = "Sultan";
+"castle" = "Castle";
+"palace" = "Palace";
+"Archaeology" = "Archaeology";
+"civilization" = "Civilization";
+"middle_ages" = "Middle Ages";
+"renaissance" = "Renaissance";
+"revolution" = "Revolution";
+"monument" = "Monument";
+"inscription" = "Inscription";
+"coin" = "Coin";
+
+//places
+"places" = "Places";
+"cinema" = "Cinema";
+"airport" = "Airport";
+"metro" = "Metro";
+"bus" = "Bus";
+"train" = "Train";
+"harbor" = "Harbor";
+"museum" = "Museum";
+"library" = "Library";
+"park" = "Park";
+"stadium" = "Stadium";
+"hospital" = "Hospital";
+"school" = "School";
+"university" = "University";
+"restaurant" = "Restaurant";
+"cafe" = "Cafe";
+"hotel" = "Hotel";
+"supermarket" = "Supermarket";
+"pharmacy" = "Pharmacy";
+"bank" = "Bank";
+"post_office" = "Post Office";
+
+//sports
+"sports" = "Sports";
+"football" = "Football";
+"basketball" = "Basketball";
+"volleyball" = "Volleyball";
+"tennis" = "Tennis";
+"swimming" = "Swimming";
+"athletics" = "Athletics";
+"running" = "Running";
+"match" = "Match";
+"training" = "Training";
+"athlete" = "Athlete";
+"team" = "Team";
+"ball" = "Ball";
+"goal" = "Goal";
+"hoop" = "Hoop";
+"net" = "Net";
+"racket" = "Racket";
+"stadium" = "Stadium";
+"medal" = "Medal";
+"trophy" = "Trophy";
+"olympics" = "Olympics";
+
+
+// HINTS
+
+// basic
+"basic01" = "Is this used daily?";
+"basic02" = "Is it commonly found at home?";
+"basic03" = "Can you hold this in your hand?";
+"basic04" = "Is it electronic?";
+"basic05" = "Is it made of plastic?";
+"basic06" = "Do students use this?";
+"basic07" = "Is it found in the kitchen?";
+"basic08" = "Can you carry this in a bag?";
+"basic09" = "Is it small?";
+"basic10" = "Is this used to write?";
+"basic11" = "Can it break easily?";
+"basic12" = "Is it made of glass?";
+"basic13" = "Is this related to furniture?";
+"basic14" = "Does it require electricity?";
+"basic15" = "Is it wearable?";
+"basic16" = "Is this used for communication?";
+"basic17" = "Do kids use it?";
+"basic18" = "Is it portable?";
+"basic19" = "Is it found on a desk?";
+"basic20" = "Is this a tool?";
+"basic21" = "Is it decorative?";
+"basic22" = "Can it be shared?";
+"basic23" = "Do you use it when it rains?";
+"basic24" = "Is it found in schools?";
+"basic25" = "Is it personal?";
+"basic26" = "Is it part of a daily routine?";
+"basic27" = "Can it be opened and closed?";
+"basic28" = "Is it battery-operated?";
+"basic29" = "Is it something you use in the bathroom?";
+"basic30" = "Does it help with organization?";
+"basic31" = "Is it washable?";
+"basic32" = "Does it have moving parts?";
+"basic33" = "Is it disposable?";
+"basic34" = "Does it make sound?";
+"basic35" = "Is it used for cleaning?";
+
+// travel
+"travel01" = "Is this related to transportation?";
+"travel02" = "Do you need a ticket for this?";
+"travel03" = "Is this a location?";
+"travel04" = "Do tourists commonly visit this?";
+"travel05" = "Is it something you can ride?";
+"travel06" = "Is it a place to sleep?";
+"travel07" = "Does this involve packing?";
+"travel08" = "Can this be found at an airport?";
+"travel09" = "Is it related to nature?";
+"travel10" = "Do people take photos here?";
+"travel11" = "Is this a popular holiday activity?";
+"travel12" = "Is it part of a journey?";
+"travel13" = "Can you fly to this?";
+"travel14" = "Is this done for leisure?";
+"travel15" = "Is it expensive?";
+"travel16" = "Would you do this with family?";
+"travel17" = "Is it found in big cities?";
+"travel18" = "Is this a building?";
+"travel19" = "Do you need ID for this?";
+"travel20" = "Does this help you navigate?";
+"travel21" = "Is it found on maps?";
+"travel22" = "Would you find this near the sea?";
+"travel23" = "Is it seasonal?";
+"travel24" = "Is it indoors?";
+"travel25" = "Does it require a guide?";
+"travel26" = "Is it part of a tour?";
+"travel27" = "Is this international?";
+"travel28" = "Is this eco-friendly?";
+"travel29" = "Is it a day trip?";
+"travel30" = "Does it involve walking?";
+"travel31" = "Do you need a visa?";
+"travel32" = "Is this popular among backpackers?";
+"travel33" = "Is it on a different continent?";
+"travel34" = "Can you visit this by train?";
+"travel35" = "Is this culturally significant?";
+
+// food
+"food01" = "Is this typically eaten hot?";
+"food02" = "Is it sweet or savory?";
+"food03" = "Can vegetarians eat this?";
+"food04" = "Is this commonly found at breakfast?";
+"food05" = "Do you eat this with a spoon?";
+"food06" = "Is it a main dish?";
+"food07" = "Is it served in restaurants?";
+"food08" = "Is this spicy?";
+"food09" = "Is it part of Turkish cuisine?";
+"food10" = "Is it considered healthy?";
+"food11" = "Can this be cooked at home?";
+"food12" = "Does it contain meat?";
+"food13" = "Is it made from dough?";
+"food14" = "Is it served cold?";
+"food15" = "Is this a beverage?";
+"food16" = "Do kids usually enjoy this?";
+"food17" = "Is it crunchy?";
+"food18" = "Is this a common street food?";
+"food19" = "Does it need to be refrigerated?";
+"food20" = "Would you eat this as a snack?";
+"food21" = "Is this something you can drink?";
+"food22" = "Is it found in every home?";
+"food23" = "Is it homemade or store-bought?";
+"food24" = "Is it high in sugar?";
+"food25" = "Would you find it at a wedding?";
+"food26" = "Is it fried?";
+"food27" = "Is it commonly eaten with bread?";
+"food28" = "Is it dairy-based?";
+"food29" = "Does it come in a can?";
+"food30" = "Is it a dessert?";
+"food31" = "Is it eaten with hands?";
+"food32" = "Is it seasonal?";
+"food33" = "Can it be grilled?";
+"food34" = "Is it commonly eaten during holidays?";
+"food35" = "Is it organic?";
+"food36" = "Is it a comfort food?";
+
+// history
+"history01" = "Is this from the past?";
+"history02" = "Is it related to war?";
+"history03" = "Is it a person?";
+"history04" = "Is it a place?";
+"history05" = "Was it powerful?";
+"history06" = "Is this from ancient times?";
+"history07" = "Is it something we learn in school?";
+"history08" = "Is it part of Turkish history?";
+"history09" = "Is it European?";
+"history10" = "Is it about peace?";
+"history11" = "Is this a ruler?";
+"history12" = "Was it important in politics?";
+"history13" = "Does it still exist?";
+"history14" = "Is it symbolic?";
+"history15" = "Is this a document?";
+"history16" = "Is it an object?";
+"history17" = "Is it a type of government?";
+"history18" = "Is this a revolution?";
+"history19" = "Is it architecture?";
+"history20" = "Was it influential?";
+"history21" = "Did it change the world?";
+"history22" = "Is it before the 20th century?";
+"history23" = "Is it still talked about today?";
+"history24" = "Is this part of a museum exhibit?";
+"history25" = "Is it ancient?";
+"history26" = "Was it destroyed?";
+"history27" = "Is it a historical event?";
+"history28" = "Is it tied to a famous figure?";
+"history29" = "Did it happen in the last 500 years?";
+"history30" = "Is it related to a specific country?";
+"history31" = "Was it controversial?";
+"history32" = "Is it commemorated today?";
+"history33" = "Did it involve exploration?";
+"history34" = "Was it a turning point in history?";
+"history35" = "Is it associated with a specific date?";
+
+// places
+"places01" = "Is it an indoor place?";
+"places02" = "Is it used for transportation?";
+"places03" = "Can anyone go there?";
+"places04" = "Do you need a ticket to get in?";
+"places05" = "Do people work there?";
+"places06" = "Do students go there?";
+"places07" = "Is it a quiet place?";
+"places08" = "Is it related to airplanes?";
+"places09" = "Do vehicles go inside?";
+"places10" = "Are events held there?";
+"places11" = "Is it not found in nature?";
+"places12" = "Is it mentioned in school?";
+"places13" = "Do people visit it often?";
+"places14" = "Is it a historical place?";
+"places15" = "Is it a tourist spot?";
+"places16" = "Can you get medical help there?";
+"places17" = "Is it an official place?";
+"places18" = "Can you go and see it?";
+"places19" = "Is it in the city center?";
+"places20" = "Is it related to the government?";
+"places21" = "Is it helpful for people?";
+"places22" = "Is there security there?";
+"places23" = "Do people work there regularly?";
+"places24" = "Is it related to medicine?";
+"places25" = "Has it changed over time?";
+"places26" = "Do people go there for treatment?";
+"places27" = "Does it use electricity or energy?";
+"places28" = "Does it have technology inside?";
+"places29" = "Is it man-made?";
+"places30" = "Is it used as an example in school?";
+"places31" = "Are there special things for visitors?";
+"places32" = "Is it open to weather conditions?";
+"places33" = "Is it part of a building?";
+"places34" = "Can you find it on a map?";
+"places35" = "Is it easy to find?";
+
+// sports
+"sports01" = "Is this played with a ball?";
+"sports02" = "Is it a team sport?";
+"sports03" = "Is it played indoors?";
+"sports04" = "Do you use your hands?";
+"sports05" = "Is this an Olympic sport?";
+"sports06" = "Is it popular in Turkey?";
+"sports07" = "Does it require a net?";
+"sports08" = "Is there a referee?";
+"sports09" = "Is it a water sport?";
+"sports10" = "Is it a combat sport?";
+"sports11" = "Is it played on grass?";
+"sports12" = "Is it physically intense?";
+"sports13" = "Is it scored with points?";
+"sports14" = "Can it be played solo?";
+"sports15" = "Is there a goal?";
+"sports16" = "Is this seasonal?";
+"sports17" = "Is it a racket sport?";
+"sports18" = "Is this contact-heavy?";
+"sports19" = "Can it be dangerous?";
+"sports20" = "Is it popular worldwide?";
+"sports21" = "Do you wear special gear?";
+"sports22" = "Is it time-limited?";
+"sports23" = "Is this played professionally?";
+"sports24" = "Is it judged?";
+"sports25" = "Can it be done for fun?";
+"sports26" = "Is it played in schools?";
+"sports27" = "Does it involve running?";
+"sports28" = "Is it played in a stadium?";
+"sports29" = "Is it part of a league?";
+"sports30" = "Do both men and women play it?";
+"sports31" = "Does it involve a bat or stick?";
+"sports32" = "Is there a coach?";
+"sports33" = "Does it involve jumping?";
+"sports34" = "Is it an outdoor sport?";
+"sports35" = "Is it played on a court?";
+
+// HOW TO PLAY
+"goal" = "Goal";
+"goal_text" = "Civilian players try to identify the spy by asking questions without revealing the secret word. The spy, on the other hand, must bluff and deceive to hide their identity!";
+
+"game_selection" = "Game & Selection";
+"game_selection_text" = "For each round, spies and the secret word are chosen randomly. Players can earn or lose points depending on their roles.";
+
+"civilians" = "Civilians";
+"civilians_text" = "The goal of civilians is to find the spy. They know the secret word, but must observe others and avoid revealing it while trying to identify the spy.";
+
+"spies" = "Spies";
+"spies_text" = "Spies do not know the secret word. Their mission is to blend in by bluffing. They may try to guess the word—or accuse others to protect themselves!";
+
+"scoring" = "Scoring";
+"scoring_text" = "Each round, players can accuse someone of being the spy. If a civilian is falsely accused, all civilians lose a point while spies gain one.";
+
+"winning" = "Winning";
+"winning_text" = "At the end of the game, each player’s score is ranked regardless of their roles in each round. The player with the highest score wins!";
+
+"reminder" = "Reminder";
+"reminder_text" = "All is fair in love and war.\nAnd this game is a war.";
+
+// Common strings
+"OK" = "OK";
+"Cancel" = "Cancel";
+"Done" = "Done";
+"Back" = "Back";
+"Next" = "Next";
+"Save" = "Save";
+"Delete" = "Delete";
+"Edit" = "Edit";
+"Add" = "Add";
+"Yes" = "Yes";
+"No" = "No";
+
+// Game related strings
+"Game" = "Game";
+"Start" = "Start";
+"Score" = "Score";
+"Timer" = "Timer";
+"Round" = "Round";
+"Player" = "Player";
+"Category" = "Category";
+"Word" = "Word";
+"Hint" = "Hint";
+
+// Settings
+"Settings" = "Settings";
+"Players" = "Players";
+"Categories" = "Categories";
+"How to Play" = "How to Play"; 

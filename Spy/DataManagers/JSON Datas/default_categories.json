@@ -1,0 +1,50 @@
+[
+    {
+        "icon": "circle.hexagongrid.circle",
+        "title": "basic",
+        "values": [
+            "book", "pen", "table", "chair", "glass", "plate", "fork", "knife", "spoon", "phone",
+            "computer", "glasses", "watch", "key", "wallet", "umbrella", "television", "lamp", "mirror", "door"
+        ]
+    },
+    {
+        "icon": "airplane.circle",
+        "title": "travel",
+        "values": [
+            "plane", "train", "bus", "ship", "car", "suitcase", "luggage", "passport", "ticket", "hotel",
+            "map", "guide", "sea", "beach", "mountain", "forest", "city", "museum", "holiday", "journey"
+        ]
+    },
+    {
+        "icon": "fork.knife.circle",
+        "title": "food",
+        "values": [
+            "bread", "cheese", "olive", "tomato", "cucumber", "soup", "pasta", "rice", "meat", "chicken",
+            "fish", "fruit", "vegetable", "dessert", "coffee", "tea", "water", "restaurant", "chef", "recipe"
+        ]
+    },
+    {
+        "icon": "book.closed.circle",
+        "title": "history",
+        "values": [
+            "ottoman", "atatürk", "republic", "empire", "war", "peace", "treaty", "king", "queen", "sultan",
+            "castle", "palace", "archaeology", "civilization", "middle_ages", "renaissance", "revolution", "monument", "inscription", "coin"
+        ]
+    },
+    {
+        "icon": "building.2.crop.circle",
+        "title": "places",
+        "values": [
+          "cinema", "airport", "metro", "bus", "train", "harbor", "museum", "library", "park", "stadium", 
+          "hospital", "school", "university", "restaurant", "cafe", "hotel", "supermarket", "pharmacy", "bank", "post office"
+        ]
+      },
+    {
+        "icon": "sportscourt.circle",
+        "title": "sports",
+        "values": [
+            "football", "basketball", "volleyball", "tennis", "swimming", "athletics", "running", "match", "training", "athlete",
+            "team", "ball", "goal", "hoop", "net", "racket", "stadium", "medal", "trophy", "olympics"
+        ]
+    }
+]

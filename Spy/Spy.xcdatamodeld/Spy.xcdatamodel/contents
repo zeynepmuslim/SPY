@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName=".Category" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="icon" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isDefault" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="words" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Word" inverseName="category" inverseEntity="Word"/>
+    </entity>
+    <entity name="GameSession" representedClassName="Spy.GameSession" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="currentRound" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isDefault" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isHintAvaible" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="playerCount" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="roundCount" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="roundDuration" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="spyCount" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="spyIndicesAllRounds" optional="YES" attributeType="Transformable" valueTransformerName="SpyIndicesAllRoundsTransformer" customClassName="NSArray" allowsExternalBinaryDataStorage="YES"/>
+        <relationship name="rounds" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Round" inverseName="session" inverseEntity="Round"/>
+    </entity>
+    <entity name="Player" representedClassName=".Player" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isDefault" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isSpy" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Round" representedClassName="Spy.Round" syncable="YES">
+        <attribute name="blamedCivilianIndicesRaw" optional="YES" attributeType="Transformable" valueTransformerName="BlamedCivilianIndicesTransformer" customClassName="NSArray" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="foundSpyIndicesRaw" optional="YES" attributeType="Transformable" valueTransformerName="FoundSpyIndicesTransformer" customClassName="NSArray" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isCompleted" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="roundNumber" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="selectedWord" optional="YES" attributeType="String"/>
+        <attribute name="spyIndicesRaw" optional="YES" attributeType="Transformable" valueTransformerName="SpyIndicesTransformer" customClassName="NSArray" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="winnerType" optional="YES" attributeType="String"/>
+        <relationship name="session" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GameSession" inverseName="rounds" inverseEntity="GameSession"/>
+    </entity>
+    <entity name="Word" representedClassName=".Word" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="words" inverseEntity="Category"/>
+    </entity>
+</model>

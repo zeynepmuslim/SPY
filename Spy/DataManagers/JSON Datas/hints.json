@@ -1,0 +1,23 @@
+{
+  "hints": {
+    "food": {
+      "count": 36
+    },
+    "travel": {
+      "count": 35
+    },
+    "basic": {
+      "count": 35
+    },
+    "history": {
+      "count": 35
+    },
+    "places": {
+      "count": 35
+    },
+    "sports": {
+      "count": 35
+    }
+  }
+}
+

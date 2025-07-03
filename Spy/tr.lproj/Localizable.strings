@@ -1,0 +1,544 @@
+/* 
+  Localizable.strings (Turkish)
+  Spy
+
+  Created for localized strings.
+*/
+
+
+"player_x" = "Oyuncu %d";
+"edit:_x" = "Düzenle: %@";
+"player_was_a_spy" = "Oyuncu %d bir ajandı";
+"player_was_a_civilian" = "Oyuncu %d bir sivildi";
+"role_point_text" = "%@ +%d";
+"minutes_format" = "%d dakika";
+"rounds_format" = "%d tur";
+"civil" = "Sivil";
+"spy" = "Ajan";
+
+// EnterVC
+"new_game" = "Yeni Oyun";
+"settings" = "Ayarlar";
+"how_to_play" = "Nasıl Oynanır";
+
+// Inside CategoryVC
+"select_category" = "Kategori Seç";
+
+// Add Category VC
+"category_title" = "Kategori Başlığı";
+"value" = "Değer ";
+"edit" = "Düzenle";
+"save_changes" = "Değişikleri Kaydet";
+"confirm_delete" = "Kategoriyi sil";
+"are_you_sure_delete_category" = "Kategoriyi silmek istediginizden emin misiniz?";
+"save_category" = "Kategori Kaydet";
+"add_new_category" = "Yeni Kategori Ekle";
+"name_is_already_in_usage_pick_another" = "Bu kategori adı zaten kullanımda. Lütfen farklı bir ad seçin.";
+"category_title_min_length" = "Kategori başlığı en az %d karakter olmalıdır";
+"category_min_values_required" = "En az %d kategori değeri gereklidir";
+"category_max_values_allowed" = "En fazla %d kategori değeri girebilirsiniz";
+"category_value_min_length" = "Her kategori değeri en az %d karakter olmalıdır. Düzenlenmesi gereken değer: '%@'";
+
+// Custom Display Cell
+"new" = "Yeni";
+
+// Custom Player Cell
+"player" = "Oyuncu";
+
+// Score Cell Container
+"score" = "Skor";
+
+// Game Settings Group Manager
+"category" = "Kategori";
+"select" = "Seç";
+"round_time" = "Tur Süresi";
+"minutes" = " dakika";
+"round_count" = "Tur Sayısı";
+"rounds" = " tur";
+"show_hints" = "İpuçlarını göster";
+
+// Custom Card View
+"tap_to_reveal_your_role" = "Rolünü görmek için dokun!";
+"spy" = "Ajan";
+"civil" = "Sivil";
+"try_to_blend_in" = "Fark edilmemeye çalış!";
+
+// Category Manager
+"other" = "Diğer";
+
+// Countdown VC
+"hints" = "İpuçları";
+"find_the_spies" = "Ajanları bulun!";
+"select_a_player_to_blame" = "Suçlamak için bir oyuncu seç";
+"-1_point_for_each_civilian" = "Her sivil için -1 puan";
+"+1_point_for_each_spy" = "Her ajan için +1 puan";
+"false_blame_warning_label" = "Yanlış suçlama, sivillerin aldığı puanı azaltır ve ajanlara puan kazandırır!";
+"blame_the_player" = "Oyuncuyu suçla!";
+"PLAYER" = "OYUNCU";
+"ALL_SPIES_FOUND" = "AJANLAR BULUNDU";
+"SPIES_WON" = "AJANLAR KAZANDI";
+"TIME_UP_AGENTS_WIN" = "SÜRE DOLDU";
+"there_is_no_hints_for_this_category" = "Bu kategori için ipucu yok";
+
+// Custom Players VC
+"save_players" = "Oyuncuları Kaydet";
+
+// Default Settings VC
+"default_settings" = "Varsayılan Ayarlar";
+"player_count" = "Oyuncu Sayısı";
+"spy_count" = "Ajan Sayısı";
+"save_as_default" = "Varsayılan olarak kaydet";
+"customize" = "Özelleştir";
+
+// Game Cards VC
+"swipe_the_card_before_next_player" = "Telefonu sonraki oyuncuya vermeden önce kartı kaydır";
+"unknown" = "Bilinmiyor";
+
+// Game Settings VC
+"play" = "Oyna";
+
+// Scores VC
+"winner_civils" = "Kazanan: Siviller";
+"winner_spies" = "Kazanan: Ajanlar";
+"winner_spies_times_up" = "Kazanan: Ajanlar (Süre Doldu)";
+"winner_determining" = "Kazananlar: Belirleniyor...";
+"rounds_left" = "Oyunun bitimine %d tur kaldı";
+"last_round" = "Bu son turdu!";
+"winner_prefix" = "Kazanan: ";
+"selected_word_prefix" = "Seçilen Kelime: %@";
+"civil_point_text" = "Sivil +3";
+"spy_point_text" = "Ajan +1";
+"score_bottom_info_text" = "Her sivil, aktif sivil sayısı kadar puan kazanır. Yanlış suçlamalardan kaybedilen puanlar ajanlara geçer.";
+"SPY" = "AJAN";
+"CIVIL" = "SİVİL";
+"score_text" = "Puan: %d";
+"next_round" = "Yeni Tura Geç";
+
+// Start Timer VC
+"find_the_spy_before_time_runs_out" = "Süre dolmadan ajanı bulun! Aksi halde ajan kazanır";
+"tap_to_start_when_ready" = "Herkes hazır olduğunda zamanlayıcıyı başlatmak için ekrana dokunun";
+
+// Total Scores VC
+"game_end_scores_title" = "Oyun Sonu Puanları";
+"default_player_name" = "Oyuncu %d";
+"player_score_text" = "%@: %d puan"; //isim ve puan
+"play_again" = "Tekrar Oyna";
+
+
+/// VARSAYILAN KATEGORİLER
+
+//temel
+"basic" = "Temel";
+"book" = "Kitap";
+"pen" = "Kalem";
+"table" = "Masa";
+"chair" = "Sandalye";
+"glass" = "Bardak";
+"plate" = "Tabak";
+"fork" = "Çatal";
+"knife" = "Bıçak";
+"spoon" = "Kaşık";
+"phone" = "Telefon";
+"computer" = "Bilgisayar";
+"glasses" = "Gözlük";
+"watch" = "Saat";
+"key" = "Anahtar";
+"wallet" = "Cüzdan";
+"umbrella" = "Şemsiye";
+"television" = "Televizyon";
+"lamp" = "Lamba";
+"mirror" = "Ayna";
+"door" = "Kapı";
+
+//seyahat
+"travel" = "Seyahat";
+"plane" = "Uçak";
+"train" = "Tren";
+"bus" = "Otobüs";
+"ship" = "Gemi";
+"car" = "Araba";
+"suitcase" = "Valiz";
+"luggage" = "Bagaj";
+"passport" = "Pasaport";
+"ticket" = "Bilet";
+"hotel" = "Otel";
+"map" = "Harita";
+"guide" = "Rehber";
+"sea" = "Deniz";
+"beach" = "Kumsal";
+"mountain" = "Dağ";
+"forest" = "Orman";
+"city" = "Şehir";
+"museum" = "Müze";
+"holiday" = "Tatil";
+"journey" = "Yolculuk";
+
+//yemek
+"food" = "Yemek";
+"bread" = "Ekmek";
+"cheese" = "Peynir";
+"olive" = "Zeytin";
+"tomato" = "Domates";
+"cucumber" = "Salatalık";
+"soup" = "Çorba";
+"pasta" = "Makarna";
+"rice" = "Pilav";
+"meat" = "Et";
+"chicken" = "Tavuk";
+"fish" = "Balık";
+"fruit" = "Meyve";
+"vegetable" = "Sebze";
+"dessert" = "Tatlı";
+"coffee" = "Kahve";
+"tea" = "Çay";
+"water" = "Su";
+"restaurant" = "Restoran";
+"chef" = "Şef";
+"recipe" = "Tarif";
+
+//tarih
+"history" = "Tarih";
+"ottoman" = "Osmanlı";
+"ataturk" = "Atatürk";
+"republic" = "Cumhuriyet";
+"empire" = "İmparatorluk";
+"war" = "Savaş";
+"peace" = "Barış";
+"treaty" = "Antlaşma";
+"king" = "Kral";
+"queen" = "Kraliçe";
+"sultan" = "Sultan";
+"castle" = "Kale";
+"palace" = "Saray";
+"Archaeology" = "Arkeoloji";
+"civilization" = "Medeniyet";
+"middle_ages" = "Orta Çağ";
+"renaissance" = "Rönesans";
+"revolution" = "Devrim";
+"monument" = "Anıt";
+"inscription" = "Kitabe";
+"coin" = "Sikke";
+
+//places
+"places" = "Mekanlar";
+"cinema" = "Sinema";
+"airport" = "Havalimanı";
+"metro" = "Metro";
+"bus" = "Otobüs";
+"train" = "Tren";
+"harbor" = "Liman";
+"museum" = "Müze";
+"library" = "Kütüphane";
+"park" = "Park";
+"stadium" = "Stadyum";
+"hospital" = "Hastane";
+"school" = "Okul";
+"university" = "Üniversite";
+"restaurant" = "Restoran";
+"cafe" = "Kafe";
+"hotel" = "Otel";
+"supermarket" = "Süpermarket";
+"pharmacy" = "Eczane";
+"bank" = "Banka";
+"post_office" = "Postane";
+
+//spor
+"sports" = "Spor";
+"football" = "Futbol";
+"basketball" = "Basketbol";
+"volleyball" = "Voleybol";
+"tennis" = "Tenis";
+"swimming" = "Yüzme";
+"athletics" = "Atletizm";
+"running" = "Koşu";
+"match" = "Maç";
+"training" = "Antrenman";
+"athlete" = "Sporcu";
+"team" = "Takım";
+"ball" = "Top";
+"goal" = "Gol";
+"hoop" = "Pota";
+"net" = "Ağ";
+"racket" = "Raket";
+"stadium" = "Stadyum";
+"medal" = "Madalya";
+"trophy" = "Kupa";
+"olympics" = "Olimpiyatlar";
+
+// HINTS
+
+//basic
+"basic01" = "Bu günlük olarak mı kullanılır?";
+"basic02" = "Genellikle evde bulunur mu?";
+"basic03" = "Bu elle tutulabilir mi?";
+"basic04" = "Elektronik mi?";
+"basic05" = "Plastikten mi yapılmış?";
+"basic06" = "Öğrenciler bunu kullanır mı?";
+"basic07" = "Mutfakta bulunur mu?";
+"basic08" = "Çantada taşınabilir mi?";
+"basic09" = "Küçük mü?";
+"basic10" = "Yazı yazmak için mi kullanılır?";
+"basic11" = "Kolayca kırılabilir mi?";
+"basic12" = "Camdan mı yapılmış?";
+"basic13" = "Bu mobilya ile ilgili mi?";
+"basic14" = "Elektrik gerektirir mi?";
+"basic15" = "Takılabilir mi?";
+"basic16" = "İletişim için mi kullanılır?";
+"basic17" = "Çocuklar bunu kullanır mı?";
+"basic18" = "Taşınabilir mi?";
+"basic19" = "Masanın üzerinde bulunur mu?";
+"basic20" = "Bu bir araç gereç mi?";
+"basic21" = "Dekoratif mi?";
+"basic22" = "Paylaşılabilir mi?";
+"basic23" = "Yağmur yağdığında mı kullanılır?";
+"basic24" = "Okullarda bulunur mu?";
+"basic25" = "Kişisel mi?";
+"basic26" = "Günlük rutinin bir parçası mı?";
+"basic27" = "Açılıp kapanabilir mi?";
+"basic28" = "Pille mi çalışır?";
+"basic29" = "Banyoda mı kullanılır?";
+"basic30" = "Düzenlemeye yardımcı olur mu?";
+"basic31" = "Yıkanabilir mi?";
+"basic32" = "Hareketli parçaları var mı?";
+"basic33" = "Tek kullanımlık mı?";
+"basic34" = "Ses çıkarır mı?";
+"basic35" = "Temizlik için mi kullanılır?";
+
+//travel
+"travel01" = "Bu ulaşım ile ilgili mi?";
+"travel02" = "Bunun için bilet gerekir mi?";
+"travel03" = "Bu bir yer mi?";
+"travel04" = "Turistler genelde burayı ziyaret eder mi?";
+"travel05" = "Üzerinde seyahat edilebilir mi?";
+"travel06" = "Uyumak için bir yer mi?";
+"travel07" = "Bunun için bavul hazırlanır mı?";
+"travel08" = "Havalimanında bulunur mu?";
+"travel09" = "Doğayla ilgili mi?";
+"travel10" = "İnsanlar burada fotoğraf çeker mi?";
+"travel11" = "Popüler bir tatil aktivitesi mi?";
+"travel12" = "Yolculuğun bir parçası mı?";
+"travel13" = "Buraya uçakla gidilebilir mi?";
+"travel14" = "Eğlence amaçlı mı yapılır?";
+"travel15" = "Pahalı mı?";
+"travel16" = "Ailece yapılır mı?";
+"travel17" = "Büyük şehirlerde bulunur mu?";
+"travel18" = "Bu bir bina mı?";
+"travel19" = "Bunun için kimlik gerekir mi?";
+"travel20" = "Yön bulmaya yardımcı olur mu?";
+"travel21" = "Haritalarda yer alır mı?";
+"travel22" = "Deniz kenarında bulunur mu?";
+"travel23" = "Mevsimsel mi?";
+"travel24" = "Kapalı alanda mı?";
+"travel25" = "Rehber gerektirir mi?";
+"travel26" = "Turun bir parçası mı?";
+"travel27" = "Bu uluslararası mı?";
+"travel28" = "Çevre dostu mu?";
+"travel29" = "Günübirlik mi?";
+"travel30" = "Yürümeyi gerektirir mi?";
+"travel31" = "Vize gerekir mi?";
+"travel32" = "Sırt çantalı gezginler arasında popüler mi?";
+"travel33" = "Farklı bir kıtada mı?";
+"travel34" = "Trenle gidilebilir mi?";
+"travel35" = "Kültürel olarak önemli mi?";
+
+//food
+"food01" = "Genellikle sıcak mı yenir?";
+"food02" = "Tatlı mı yoksa tuzlu mu?";
+"food03" = "Vejetaryenler bunu yiyebilir mi?";
+"food04" = "Kahvaltıda sıkça bulunur mu?";
+"food05" = "Kaşıkla mı yenir?";
+"food06" = "Bu bir ana yemek mi?";
+"food07" = "Restoranlarda servis edilir mi?";
+"food08" = "Baharatlı mı?";
+"food09" = "Türk mutfağına ait mi?";
+"food10" = "Sağlıklı olarak mı kabul edilir?";
+"food11" = "Evde pişirilebilir mi?";
+"food12" = "Et içerir mi?";
+"food13" = "Hamurla mı yapılır?";
+"food14" = "Soğuk olarak mı servis edilir?";
+"food15" = "Bu bir içecek mi?";
+"food16" = "Çocuklar genellikle sever mi?";
+"food17" = "Kıtır kıtır mı?";
+"food18" = "Sokak yemeği olarak yaygın mı?";
+"food19" = "Buzdolabında saklanmalı mı?";
+"food20" = "Atıştırmalık olarak yenir mi?";
+"food21" = "Bu içilebilir mi?";
+"food22" = "Her evde bulunur mu?";
+"food23" = "Ev yapımı mı yoksa hazır mı?";
+"food24" = "Şeker oranı yüksek mi?";
+"food25" = "Düğünlerde bulunur mu?";
+"food26" = "Kızartılmış mı?";
+"food27" = "Ekmekle birlikte mi yenir?";
+"food28" = "Süt ürünü mü?";
+"food29" = "Konserve olarak mı satılır?";
+"food30" = "Bu bir tatlı mı?";
+"food31" = "Elle mi yenir?";
+"food32" = "Mevsimlik mi?";
+"food33" = "Izgara yapılabilir mi?";
+"food34" = "Bayramlarda sıkça mı yenir?";
+"food35" = "Organik mi?";
+"food36" = "Bu bir ‘comfort food’ mu (rahatlatıcı yiyecek)?";
+
+//history
+"history01" = "Geçmişe mi ait?";
+"history02" = "Savaşla mı ilgili?";
+"history03" = "Bu bir kişi mi?";
+"history04" = "Bu bir yer mi?";
+"history05" = "Güçlü müydü?";
+"history06" = "Antik zamanlara mı ait?";
+"history07" = "Okullarda öğretilir mi?";
+"history08" = "Türk tarihiyle mi ilgili?";
+"history09" = "Avrupa ile mi ilgili?";
+"history10" = "Barış hakkında mı?";
+"history11" = "Bu bir hükümdar mı?";
+"history12" = "Siyasette önemli miydi?";
+"history13" = "Hâlâ var mı?";
+"history14" = "Simgesel mi?";
+"history15" = "Bu bir belge mi?";
+"history16" = "Bu bir nesne mi?";
+"history17" = "Yönetim biçimi mi?";
+"history18" = "Bu bir devrim mi?";
+"history19" = "Mimari ile mi ilgili?";
+"history20" = "Etkileyici miydi?";
+"history21" = "Dünyayı değiştirdi mi?";
+"history22" = "20. yüzyıldan önce mi?";
+"history23" = "Hâlâ konuşuluyor mu?";
+"history24" = "Müze sergilerinde yer alır mı?";
+"history25" = "Antik mi?";
+"history26" = "Yok edilmiş mi?";
+"history27" = "Bu bir tarihsel olay mı?";
+"history28" = "Ünlü bir figürle mi bağlantılı?";
+"history29" = "Son 500 yılda mı oldu?";
+"history30" = "Belirli bir ülkeyle mi ilgili?";
+"history31" = "Tartışmalı mıydı?";
+"history32" = "Bugün anılıyor mu?";
+"history33" = "Keşif içeriyor muydu?";
+"history34" = "Tarihte dönüm noktası mıydı?";
+"history35" = "Belirli bir tarihle mi anılıyor?";
+
+//places
+"places01" = "Burası kapalı bir yer mi?";
+"places02" = "Ulaşım için mi kullanılıyor?";
+"places03" = "Herkes girebilir mi?";
+"places04" = "Girmek için bilet gerekiyor mu?";
+"places05" = "Orada çalışan insanlar var mı?";
+"places06" = "Öğrenciler buraya gelir mi?";
+"places07" = "Sessiz bir yer mi?";
+"places08" = "Uçaklarla ilgili bir yer mi?";
+"places09" = "Araçlar buraya girer mi?";
+"places10" = "Etkinlik yapılır mı burada?";
+"places11" = "Bu yer doğada bulunmaz mı?";
+"places12" = "Okulda bu yerden bahsedilir mi?";
+"places13" = "İnsanlar burayı sık ziyaret eder mi?";
+"places14" = "Tarihi bir yer mi?";
+"places15" = "Turistik bir yer mi?";
+"places16" = "Burada sağlık hizmeti veriliyor mu?";
+"places17" = "Resmî bir yer mi?";
+"places18" = "Gidip görebileceğimiz bir yer mi?";
+"places19" = "Şehir merkezinde mi?";
+"places20" = "Devletle bir ilgisi var mı?";
+"places21" = "İnsanlara faydalı bir yer mi?";
+"places22" = "Güvenlik kontrolü var mı?";
+"places23" = "Orada çalışan biri olur mu?";
+"places24" = "İlaçlar ile ilgili bir yer mi?";
+"places25" = "Zamanla değişmiş bir yer mi?";
+"places26" = "Tedavi için gidilen bir yer mi?";
+"places27" = "Burada enerji kullanılıyor mu?";
+"places28" = "Teknolojik aletler var mı içinde?";
+"places29" = "İnsan yapımı bir yer mi?";
+"places30" = "Lisede örnek olarak anlatılır mı?";
+"places31" = "Ziyaretçilere özel bir şeyler yapılır mı?";
+"places32" = "Hava koşullarına açık mı?";
+"places33" = "Bir yapının parçası mı?";
+"places34" = "Haritada gösterilebilir mi?";
+"places35" = "Kolayca bulunabilir mi?";
+
+//sports
+"sports01" = "Topla mı oynanır?";
+"sports02" = "Takım sporu mu?";
+"sports03" = "Kapalı alanda mı oynanır?";
+"sports04" = "Eller kullanılır mı?";
+"sports05" = "Bu bir Olimpiyat sporu mu?";
+"sports06" = "Türkiye’de popüler mi?";
+"sports07" = "Ağ gerekir mi?";
+"sports08" = "Hakem var mı?";
+"sports09" = "Bu bir su sporu mu?";
+"sports10" = "Bu bir dövüş sporu mu?";
+"sports11" = "Çim üzerinde mi oynanır?";
+"sports12" = "Fiziksel olarak yoğun mu?";
+"sports13" = "Puanla mı kazanılır?";
+"sports14" = "Tek başına oynanabilir mi?";
+"sports15" = "Gol var mı?";
+"sports16" = "Mevsimsel mi?";
+"sports17" = "Bu bir raket sporu mu?";
+"sports18" = "Temas yoğun mu?";
+"sports19" = "Tehlikeli olabilir mi?";
+"sports20" = "Dünya genelinde popüler mi?";
+"sports21" = "Özel ekipman giyilir mi?";
+"sports22" = "Süreyle mi sınırlı?";
+"sports23" = "Profesyonel olarak mı oynanır?";
+"sports24" = "Puanlar hakem kararıyla mı belirlenir?";
+"sports25" = "Eğlence amaçlı yapılabilir mi?";
+"sports26" = "Okullarda oynanır mı?";
+"sports27" = "Koşmayı içerir mi?";
+"sports28" = "Stadyumda mı oynanır?";
+"sports29" = "Bir lige mi bağlıdır?";
+"sports30" = "Kadınlar ve erkekler birlikte mi oynar?";
+"sports31" = "Sopa veya benzeri bir aletle mi oynanır?";
+"sports32" = "Antrenör var mı?";
+"sports33" = "Zıplamayı içerir mi?";
+"sports34" = "Açık havada mı oynanır?";
+"sports35" = "Kortta mı oynanır?";
+
+//HOW TO PLAY
+"goal" = "Amaç";
+"goal_text" = "Sivil oyuncular, kelimeyi söylemeden sorular sorarak ajanı bulmaya çalışır. Ajan ise kimliğini gizlemek için her türlü blöf ve kurnazlığa başvurabilir!";
+
+"game_selection" = "Seçim";
+"game_selection_text" = "Her turda ajan(lar) ve seçili kelime rastgele belirlenir. Oyuncular, rollerine göre puan kazanabilir veya kaybedebilir.";
+
+"civilians" = "Siviller";
+"civilians_text" = "Sivillerin amacı ajanı bulmaktır. Kelimeyi bilirler ama açık etmeden diğer oyuncuları gözlemleyerek ajanı ortaya çıkarmaya çalışırlar.";
+
+"spies" = "Ajanlar";
+"spies_text" = "Ajanlar seçili kelimeyi bilmez. Görevleri blöf yaparak kendilerini gizlemektir. Aynı zamanda kelimeyi tahmin etmeye çalışabilir, hatta iftira atabilirler!";
+
+"scoring" = "Puanlama";
+"scoring_text" = "Her turda oyuncular ajan olduğunu düşündükleri kişileri suçlayabilir. Eğer sivil bir oyuncu suçlanırsa tüm siviller puan kaybeder, ajanlar ise puan kazanır.";
+
+"winning" = "Kazanan";
+"winning_text" = "Her oyunucunun puanı oyun sonunda turlardaki rollerinden bağımsız olarak sıralanır. En çok puanı alan kazanır!";
+
+"reminder" = "Hatırlatma";
+"reminder_text" = "Savaşta ve aşkta her şey mübahtır.\nOyun da bir savaştır.";
+
+
+// Common strings
+"OK" = "Tamam";
+"Cancel" = "İptal";
+"Done" = "Bitti";
+"Back" = "Geri";
+"Next" = "İleri";
+"Save" = "Kaydet";
+"Delete" = "Sil";
+"Edit" = "Düzenle";
+"Add" = "Ekle";
+"Yes" = "Evet";
+"No" = "Hayır";
+
+// Game related strings
+"Game" = "Oyun";
+"Start" = "Başla";
+"Score" = "Skor";
+"Timer" = "Zamanlayıcı";
+"Round" = "Tur";
+"Player" = "Oyuncu";
+"Category" = "Kategori";
+"Word" = "Kelime";
+"Hint" = "İpucu";
+
+// Settings
+"Settings" = "Ayarlar";
+"Players" = "Oyuncular";
+"Categories" = "Kategoriler";
+"How to Play" = "Nasıl Oynanır"; 

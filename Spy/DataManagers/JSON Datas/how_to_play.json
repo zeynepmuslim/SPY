@@ -1,0 +1,32 @@
+{
+  "howToPlay": [
+    {
+      "title": "goal",
+      "text": "goal_text"
+    },
+    {
+      "title": "game_selection",
+      "text": "game_selection_text"
+    },
+    {
+      "title": "civilians",
+      "text": "civilians_text"
+    },
+    {
+      "title": "spies",
+      "text": "spies_text"
+    },
+    {
+      "title": "scoring",
+      "text": "scoring_text"
+    },
+    {
+      "title": "winning",
+      "text": "winning_text"
+    },
+    {
+      "title": "reminder",
+      "text": "reminder_text"
+    }
+  ]
+}
