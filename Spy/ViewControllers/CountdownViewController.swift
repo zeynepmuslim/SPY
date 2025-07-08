@@ -154,12 +154,12 @@ class CountdownViewController: UIViewController {
     
     private func configureGameInfoLabels() {
         let spyCount = countdownModel.spyIndices.count
-        configureLabel(findSpyTitle, text: "find_the_spies_group".staticPlural(count: spyCount), color: .white, font: .systemFont(ofSize: 16, weight: .bold), alignment: .left)
+        configureLabel(findSpyTitle, text: "find_the_spies".staticPlural(count: spyCount), color: .white, font: .systemFont(ofSize: 16, weight: .bold), alignment: .left)
         configureLabel(findSpyLabel, text: "select_a_player_to_blame".localized, color: .spyBlue01, font: .systemFont(ofSize: 12, weight: .regular), alignment: .left, numberOfLines: 0)
         configureLabel(pointsTitle, text: "player_was_a_civilian".localized.uppercased(), color: .white, font: .systemFont(ofSize: 14, weight: .heavy), alignment: .right)
         configureLabel(civilPointsLabel, text: "-1_point_for_each_civilian".localized, color: .spyBlue01, font: .systemFont(ofSize: 14, weight: .regular), alignment: .right)
-        configureLabel(spyPointsLabel, text: "+1_point_for_each_spy".localized, color: .spyRed01, font: .systemFont(ofSize: 16, weight: .regular), alignment: .right)
-        configureLabel(bottomLabel, text: "false_blame_warning_label".staticPlural(count: spyCount), color: .white, font: .systemFont(ofSize: 10, weight: .regular), alignment: .left, numberOfLines: 0)
+        configureLabel(spyPointsLabel, text: "+1_point_for_each_spy".staticPlural(count: spyCount), color: .spyRed01, font: .systemFont(ofSize: 16, weight: .regular), alignment: .right)
+        configureLabel(bottomLabel, text: "false_blame_warning_label".localized, color: .white, font: .systemFont(ofSize: 10, weight: .regular), alignment: .left, numberOfLines: 0)
     }
     
     // MARK: - Helper Methods

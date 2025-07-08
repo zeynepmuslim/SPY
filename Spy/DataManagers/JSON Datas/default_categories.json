@@ -4,7 +4,8 @@
         "title": "basic",
         "values": [
             "book", "pen", "table", "chair", "glass", "plate", "fork", "knife", "spoon", "phone",
-            "computer", "glasses", "watch", "key", "wallet", "umbrella", "television", "lamp", "mirror", "door"
+            "computer", "glasses", "watch", "key", "wallet", "umbrella", "television", "lamp", "mirror", "door", "window", "bed", "pillow", "blanket", "bag", "shoe", "sock", "hat", "towel", "toothbrush",
+            "comb", "bottle", "cup", "notebook", "pencil", "eraser", "scissors", "remote", "charger", "calendar"
         ]
     },
     {
@@ -12,7 +13,8 @@
         "title": "travel",
         "values": [
             "plane", "train", "bus", "ship", "car", "suitcase", "luggage", "passport", "ticket", "hotel",
-            "map", "guide", "sea", "beach", "mountain", "forest", "city", "museum", "holiday", "journey"
+            "map", "guide", "sea", "beach", "mountain", "forest", "city", "museum", "holiday", "journey",
+            "airport", "terminal", "station", "subway", "metro", "tram", "bicycle", "motorbike", "taxi", "ferry", "cruise", "backpack", "hostel", "campsite", "visa", "reservation", "itinerary", "souvenir", "photograph", "postcard"
         ]
     },
     {
@@ -20,31 +22,107 @@
         "title": "food",
         "values": [
             "bread", "cheese", "olive", "tomato", "cucumber", "soup", "pasta", "rice", "meat", "chicken",
-            "fish", "fruit", "vegetable", "dessert", "coffee", "tea", "water", "restaurant", "chef", "recipe"
+            "fish", "fruit", "vegetable", "dessert", "coffee", "tea", "water", "restaurant", "chef", "recipe", "salt", "pepper", "butter", "yogurt", "egg", "salad", "pizza", "hamburger", "sandwich", "sushi", "grill", "barbecue", "noodle", "steak", "icecream", "chocolate", "spice", "herb", "garlic", "onion"
         ]
     },
     {
         "icon": "book.closed.circle",
         "title": "history",
         "values": [
-            "ottoman", "atatürk", "republic", "empire", "war", "peace", "treaty", "king", "queen", "sultan",
-            "castle", "palace", "archaeology", "civilization", "middle_ages", "renaissance", "revolution", "monument", "inscription", "coin"
+            "ottoman", "ataturk", "republic", "empire", "war", "peace", "treaty", "king", "queen", "sultan",
+            "castle", "palace", "archaeology", "civilization", "middle_ages", "renaissance", "revolution", "monument", "inscription", "coin", "dynasty", "pharaoh", "conquest", "crusade", "colony", "independence", "constitution", "parliament", "battle", "legion", "senate", "artifact", "relic", "scroll", "manuscript", "chronicle", "timeline", "excavation", "fortress", "citadel"
         ]
     },
     {
         "icon": "building.2.crop.circle",
         "title": "places",
         "values": [
-          "cinema", "airport", "metro", "bus", "train", "harbor", "museum", "library", "park", "stadium", 
-          "hospital", "school", "university", "restaurant", "cafe", "hotel", "supermarket", "pharmacy", "bank", "post office"
+            "cinema", "airport", "metro", "bus", "train", "harbor", "museum", "library", "park", "stadium",
+            "hospital", "school", "university", "restaurant", "cafe", "hotel", "supermarket", "pharmacy", "bank", "post office", "bakery", "butcher", "police station", "fire station", "courthouse", "embassy", "zoo", "aquarium", "theater", "mall", "gym", "swimming pool", "playground", "factory", "warehouse", "parking lot", "gas station", "church", "mosque", "temple"
         ]
-      },
+    },
     {
         "icon": "sportscourt.circle",
         "title": "sports",
         "values": [
             "football", "basketball", "volleyball", "tennis", "swimming", "athletics", "running", "match", "training", "athlete",
-            "team", "ball", "goal", "hoop", "net", "racket", "stadium", "medal", "trophy", "olympics"
+            "team", "ball", "goal", "hoop", "net", "racket", "stadium", "medal", "trophy", "olympics", "baseball", "golf", "table tennis", "badminton", "boxing", "wrestling", "karate", "judo", "taekwondo", "skiing", "snowboarding", "cycling", "motor racing", "surfing", "skateboarding", "archery", "fencing", "horse riding", "diving", "rowing"
+        ]
+    },
+    {
+        "icon": "pawprint.circle",
+        "title": "animals",
+        "values": [
+            "dog", "cat", "bird", "fish", "horse", "cow", "pig", "sheep", "goat", "chicken",
+            "duck", "rabbit", "hamster", "guinea pig", "turtle", "snake", "lizard", "frog", "elephant", "lion",
+            "tiger", "bear", "wolf", "fox", "deer", "monkey", "gorilla", "penguin", "dolphin", "whale", "shark", "octopus", "crab", "lobster", "butterfly", "bee", "ant", "spider", "scorpion", "bat"
+        ]
+    },
+    {
+        "icon": "leaf.circle",
+        "title": "nature",
+        "values": [
+            "tree", "flower", "grass", "bush", "forest", "mountain", "river", "lake", "ocean", "beach",
+            "desert", "jungle", "valley", "canyon", "waterfall", "volcano", "island", "cave", "cliff", "meadow",
+            "swamp", "marsh", "tundra", "savanna", "reef", "coral", "moss", "fern", "vine", "cactus", "bamboo", "palm", "oak", "pine", "maple", "rose", "tulip", "daisy", "sunflower", "lily", "orchid"
+        ]
+    },
+    {
+        "icon": "power.circle",
+        "title": "technology",
+        "values": [
+            "computer", "laptop", "tablet", "smartphone", "television", "camera", "headphones", "speaker", "microphone", "keyboard",
+            "mouse", "printer", "scanner", "router", "modem", "server", "database", "software", "app", "website",
+            "internet", "wifi", "bluetooth", "usb", "cable", "battery", "charger", "screen", "processor", "memory", "hard drive", "cloud", "email", "social media", "gaming", "virtual reality", "artificial intelligence", "robot", "drone", "satellite"
+        ]
+    },
+    {
+        "icon": "tv.circle",
+        "title": "entertainment",
+        "values": [
+            "movie", "film", "series", "show", "concert", "theater", "play", "musical", "opera", "ballet",
+            "comedy", "drama", "action", "horror", "romance", "documentary", "animation", "cartoon", "game", "puzzle",
+            "book", "magazine", "newspaper", "comic", "novel", "poetry", "music", "song", "album", "band", "singer", "actor", "actress", "director", "producer", "writer", "artist", "painter", "sculptor", "photographer"
+        ]
+    },
+    {
+        "icon": "person.2.circle",
+        "title": "professions",
+        "values": [
+            "doctor", "nurse", "teacher", "student", "engineer", "architect", "lawyer", "judge", "police", "firefighter",
+            "soldier", "pilot", "driver", "chef", "waiter", "cashier", "salesperson", "manager", "secretary", "receptionist",
+            "artist", "musician", "actor", "writer", "journalist", "reporter", "photographer", "designer", "programmer", "scientist", "researcher", "professor", "dentist", "veterinarian", "mechanic", "electrician", "plumber", "carpenter", "farmer", "fisherman"
+        ]
+    },
+    {
+        "icon": "house.circle",
+        "title": "home",
+        "values": [
+            "house", "apartment", "room", "kitchen", "bathroom", "bedroom", "living room", "dining room", "garage", "garden",
+            "balcony", "terrace", "roof", "basement", "attic", "closet", "wardrobe", "cabinet", "shelf", "drawer",
+            "sofa", "armchair", "dining table", "bed", "mattress", "pillow", "blanket", "curtain", "carpet", "rug", "lamp", "chandelier", "mirror", "painting", "plant", "vase", "clock", "thermometer", "thermostat", "smoke detector"
+        ]
+    },
+    {
+        "icon": "gearshape.circle",
+        "title": "auto_parts",
+        "values": [
+            "gearbox", "drive shaft", "steering bearing set", "engine", "transmission", "clutch", "brake pad", "brake disc", "brake caliper", "brake fluid",
+            "oil filter", "air filter", "fuel filter", "spark plug", "ignition coil", "battery", "alternator", "starter motor", "radiator", "thermostat",
+            "water pump", "oil pump", "fuel pump", "injector", "carburetor", "exhaust pipe", "muffler", "catalytic converter", "oxygen sensor", "mass airflow sensor",
+            "throttle body", "intake manifold", "exhaust manifold", "camshaft", "crankshaft", "piston", "connecting rod", "cylinder head", "cylinder block", "valve",
+            "timing belt", "serpentine belt", "tensioner", "idler pulley", "shock absorber", "spring", "strut", "control arm", "ball joint", "tie rod"
+        ]
+    },
+    {
+        "icon": "apple.terminal.circle",
+        "title": "programming",
+        "values": [
+            "debug", "bug", "backend", "frontend", "algorithm", "function", "variable", "class", "object", "method",
+            "inheritance", "polymorphism", "encapsulation", "abstraction", "interface", "api", "database", "query", "sql", "nosql",
+            "framework", "library", "dependency", "package", "repository", "version control", "git", "commit", "branch", "merge",
+            "deployment", "server", "client", "protocol", "http", "https", "json", "xml", "rest", "graphql",
+            "microservice", "container", "docker", "kubernetes", "ci cd", "testing", "unit test", "integration test", "refactoring", "optimization"
         ]
     }
 ]

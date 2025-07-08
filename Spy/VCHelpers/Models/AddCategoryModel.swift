@@ -303,7 +303,7 @@ class UIHelper {
     static func showDeleteConfirmation(on viewController: UIViewController, categoryName: String, deleteAction: @escaping () -> Void) {
         let confirmAlert = UIAlertController(
             title: "confirm_delete".localized,
-            message: "are_you_sure_delete_cat".localized + categoryName + " ?",
+            message: "are_you_sure_delete_category".localized,
             preferredStyle: .alert
         )
         

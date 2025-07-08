@@ -17,6 +17,30 @@
     },
     "sports": {
       "count": 35
+    },
+    "animals": {
+      "count": 40
+    },
+    "nature": {
+      "count": 40
+    },
+    "technology": {
+      "count": 40
+    },
+    "entertainment": {
+      "count": 40
+    },
+    "professions": {
+      "count": 40
+    },
+    "home": {
+      "count": 40
+    },
+    "auto_parts": {
+      "count": 50
+    },
+    "programming": {
+      "count": 50
     }
   }
 }

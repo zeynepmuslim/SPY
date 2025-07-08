@@ -209,15 +209,8 @@ class EnterViewController: UIViewController, UIViewControllerTransitioningDelega
         
         let customSegueIdentifiers = ["menuToGameSettings", "EnterToDefaultSettings", "EnterToHowToPlay"]
         if customSegueIdentifiers.contains(segue.identifier ?? "") {
-            if segue is StoryboardFadeToBlueSegue {
-                let destinationVC = segue.destination
-                destinationVC.modalPresentationStyle = .custom
-                destinationVC.transitioningDelegate = self
-            } else {
-                let destinationVC = segue.destination
-                destinationVC.modalPresentationStyle = .custom
-                destinationVC.transitioningDelegate = self
-            }
+            segue.destination.modalPresentationStyle = .custom
+            segue.destination.transitioningDelegate = self
         }
     }
     
@@ -277,17 +270,18 @@ extension String {
         let singularTranslation = NSLocalizedString(singularKey, comment: "")
         if singularTranslation != singularKey {
             if count == 1 {
-                return singularTranslation
+                return String(format: singularTranslation, count)
             } else {
                 let pluralTranslation = NSLocalizedString(pluralKey, comment: "")
                 if pluralTranslation != pluralKey {
-                    return pluralTranslation
-                } else { // fallback
-                    return NSLocalizedString(self, comment: "")
+                    return String(format: pluralTranslation, count)
+                } else { // Fallback
+                    return String(format: NSLocalizedString(self, comment: ""), count)
                 }
             }
         } else {
-            return NSLocalizedString(self, comment: "")
+            return String(format: NSLocalizedString(self, comment: ""), count)
         }
     }
 }
+

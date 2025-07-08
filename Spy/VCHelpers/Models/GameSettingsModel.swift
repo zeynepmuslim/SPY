@@ -237,7 +237,7 @@ class GameSettingsGroupFactory {
             PlayerSettingsGroupManager.PlayerGroup(
                 title: "player_count_static".localized,
                 index: 0,
-                minSpyCount: 1,
+                minSpyCount: 3, // civil
                 maxSpyCount: 10,
                 initialValue: playerCount
             ),

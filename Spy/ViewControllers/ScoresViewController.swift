@@ -103,7 +103,7 @@ class ScoresViewController: UIViewController {
         civilPointLabel.font = .systemFont(ofSize: 30, weight: .regular)
         spyPointLabel.font = .systemFont(ofSize: 30, weight: .regular)
         
-        bottomInfoLabel.text = "score_bottom_info_text".staticPlural(count: model.spyIndices.count)
+        bottomInfoLabel.text = "score_bottom_info_text".localized
         bottomInfoLabel.numberOfLines = 0
         bottomInfoLabel.lineBreakMode = .byWordWrapping
         bottomInfoLabel.textAlignment = .center
@@ -161,13 +161,17 @@ class ScoresViewController: UIViewController {
     // MARK: - Button Creation
     private func createNewRoundButton() -> CustomGradientButton {
         let button = CustomGradientButton(
-            labelText: "next_round".localized, width: 100,
+            labelText: getButtonText(), width: 100,
             height: GeneralConstants.Button.biggerHeight)
         
         button.onClick = { [weak self] in
             self?.handleNewRoundButtonTap()
         }
         return button
+    }
+    
+    private func getButtonText() -> String {
+        return model.hasNextRound() ? "next_round".localized : "view_final_scores".localized
     }
     
     private func handleNewRoundButtonTap() {

@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Debug categories and sessions
         GameStateManager.shared.debugCategoriesAndSessions()
         
-//        CategoryManager.shared.syncDefaultCategoriesWithJSON()
+        CategoryManager.shared.syncDefaultCategoriesWithJSON()
         return true
     }
 

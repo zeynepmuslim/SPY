@@ -297,6 +297,12 @@ class GameSettingsViewController: UIViewController, UIViewControllerTransitionin
             playerCount: playerCount,
             customPlayerNames: customPlayerNames
         )
+        
+        let customSegueIdentifiers = ["GameSettingsToCategories", "settingsToCustomPlayers"]
+        if customSegueIdentifiers.contains(segue.identifier ?? "") {
+            segue.destination.modalPresentationStyle = .custom
+            segue.destination.transitioningDelegate = self
+        }
     }
     
     func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {

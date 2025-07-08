@@ -171,6 +171,12 @@ class DefaultSettingsViewController: UIViewController, UIViewControllerTransitio
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         DefaultSettingsSegueHandler.prepareForSegue(segue, sender: sender, from: self)
+        
+        let customSegueIdentifiers = ["DefaultSettingsToCategories", "DefaultSettingsToCustomPlayers"]
+        if customSegueIdentifiers.contains(segue.identifier ?? "") {
+            segue.destination.modalPresentationStyle = .custom
+            segue.destination.transitioningDelegate = self
+        }
     }
     
     @IBAction func unwindToDefaultSettingsWithSegue(_ segue: UIStoryboardSegue) {
