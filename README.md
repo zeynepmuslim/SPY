@@ -14,5 +14,5 @@ A bluffing and strategy-based game designed for friend groups, where players use
 
 https://apps.apple.com/tr/app/spy-the-game/id6748213306?l=tr
 
-<div style="display: flex; justify-content: center; gap: 10px;"><img src="readme-assets/ss01" width="200"/><img src="readme-assets/ss02" width="200"/><img src="readme-assets/ss03" width="200"/><img src="readme-assets/ss04" width="200"/><img src="readme-assets/ss05" width="200"/><img src="readme-assets/ss06" width="200"/></div>
+<div style="display: flex; justify-content: center; gap: 10px;"><img src="readme-assets/ss01.jpg" width="200"/>   <img src="readme-assets/ss02.jpg" width="200"/>  <img src="readme-assets/ss03.jpg" width="200"/>  <img src="readme-assets/ss04.jpg" width="200"/>   <img src="readme-assets/ss05.jpg" width="200"/>  <img src="readme-assets/ss06.jpg" width="200"/></div>
 
